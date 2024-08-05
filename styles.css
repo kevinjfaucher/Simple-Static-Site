@@ -1,0 +1,46 @@
+/* General styles for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the header section */
+header {
+    background-color: #f37171;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styles for the main content section */
+main {
+    padding: 20px;
+}
+
+/* Styles for the list */
+ul {
+    list-style-type: square;
+    margin: 20px 0;
+    padding: 0;
+}
+
+/* Styles for the image with float */
+.float-img {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 150px; /* Set a specific width for the image */
+    transform: rotateZ(5deg);
+}
+
+/* Styles for the link */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Change color of the link when hovering over it */
+a:hover {
+    text-decoration: underline;
+}
